@@ -66,3 +66,4 @@ class Square extends Polygon{
 
         }
 }
+}
