@@ -49,7 +49,7 @@ class Square extends Polygon{
   get area(){
     let ar = 0
     this.array.forEach(item =>{
-      ar += item;
+      item *= item;
     })
     return ar
   }
