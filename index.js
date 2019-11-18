@@ -46,6 +46,13 @@ class Square extends Polygon{
     super(array)
   }
   
+  get area(){
+    let ar = 0
+    this.area.forEach(item =>{
+      ar += item;
+    })
+  }
+  
   get isValid(){
     this.array.forEach(item=>{
       if(item == item){
