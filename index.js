@@ -48,9 +48,9 @@ class Square extends Polygon{
   
   get area(){
     let ar = 0
-    this.array.forEach(item =>{
-      item *= item;
-    })
+    
+    ar = this.array[0] * this.array[0]
+
     return ar
   }
   
