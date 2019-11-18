@@ -55,6 +55,5 @@ class Square extends Polygon{
   }
   
   get isValid(){
-!!this.array.reduce(function(a, b){ return (a === b) ? a : NaN; });
   }
 }
