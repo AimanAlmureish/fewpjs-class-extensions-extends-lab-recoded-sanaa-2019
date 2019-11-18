@@ -55,5 +55,10 @@ class Square extends Polygon{
   }
   
   get isValid(){
+    this.array.forEach(item=>{
+      if(item == item){
+        return true
+      }
+    })
   }
 }
