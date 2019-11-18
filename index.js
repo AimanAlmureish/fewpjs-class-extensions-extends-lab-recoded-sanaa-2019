@@ -51,6 +51,7 @@ class Square extends Polygon{
     this.area.forEach(item =>{
       ar += item;
     })
+    return ar
   }
   
   get isValid(){
