@@ -55,6 +55,14 @@ class Square extends Polygon{
   }
   
   get isValid(){
-!!array.reduce(function(a, b){ return (a === b) ? true : false; });
-  }
+
+        for (let index = 0; index < ar.length; index++) {
+            const element = ar[index];
+            if (ar[0] !== element) {
+                console.log(false);
+            } else {
+                console.log(true);
+            }
+
+        }
 }
